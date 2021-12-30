@@ -1,4 +1,9 @@
-.App {
+form {
+  margin-left: 10px;
+}
+.App > h1 {
+  color: #460980;
+  font-size: xx-large;
   text-align: center;
 }
 
@@ -35,4 +40,43 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+#submitbtn {
+  color: black;
+  background-color: green;
+  width: 100px;
+  height: 30px;
+  border: green;
+}
+
+form > label {
+  color: blue;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 500;
+  font-size: large;
+}
+
+#flex {
+  display: flex;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+td {
+  color: gold;
+}
+
+table {
+  height: 100px;
+}
+
+th,
+tr,
+td {
+  height: 30px;
 }
